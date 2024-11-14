@@ -13,6 +13,7 @@
 		"@sanity/preview-url-secret": "^2.0.0",
 		"@sanity/react-loader": "^1.10.4",
 		"@sanity/visual-editing": "^2.4.2",
+		"framer-motion": "^11.11.15",
 		"immer": "^10.1.1",
 		"next": "15.0.2",
 		"next-sanity": "^9.8.8",

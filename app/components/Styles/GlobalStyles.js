@@ -9,6 +9,10 @@ import media from "./Media";
 import font from "./Font";
 
 const styles = css`
+	body {
+		transition: background 1.5s ease-in-out;
+	}
+	
   *{
 		margin: 0;
 		padding: 0;

@@ -24,6 +24,14 @@ const HomeStyles = styled.section`
 	a {
 		text-decoration: underline;
 	}
+
+	h1 {
+		transition: color 0.15s ease-in-out;
+	}
+
+	&.is-inverse h1 {
+		color: white;
+	}
 `;
 
 export default HomeStyles;
