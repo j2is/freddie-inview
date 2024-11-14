@@ -4,9 +4,7 @@ import "@/components/Styles/FontFace.css"
 import StyledComponentsRegistry from '../lib/registry'
 import { Providers } from '../lib/providers'
 import GlobalStyles from '../components/Styles/GlobalStyles'
-import { DisableDraftMode } from '@/components/DisableDraftMode'
-import { VisualEditing } from 'next-sanity'
-import { SanityLive } from '@/lib/sanity/lib/live'
+
 
 export default async function Index({
 	children,
@@ -21,13 +19,6 @@ export default async function Index({
 					<StyledComponentsRegistry>
 						<GlobalStyles />
 						{children}
-						<SanityLive />
-						{isEnabled && (
-							<>
-								<DisableDraftMode />
-								<VisualEditing />
-							</>
-						)}
 					</StyledComponentsRegistry>
 				</Providers>
 			</body>
